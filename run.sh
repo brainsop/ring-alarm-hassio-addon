@@ -10,5 +10,5 @@ cp /data/options.json ring-alarm-mqtt/config.json
 cd ring-alarm-mqtt
 npm install
 npm audit fix
-chmod a+x ring-alarm-mqtt.js
+chmod x ring-alarm-mqtt.js
 DEBUG=* /ring-alarm-mqtt/ring-alarm-mqtt.js
