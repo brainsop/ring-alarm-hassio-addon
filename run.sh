@@ -3,6 +3,7 @@ echo Node Version
 node -v
 echo NPM Version
 npm -v
+echo antes de git--version
 git --version
 
 echo antes de copiar
