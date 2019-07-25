@@ -11,4 +11,7 @@ cd ring-alarm-mqtt
 npm install
 npm audit fix
 chmod +x ring-alarm-mqtt.js
+echo Ejecucion de tcpdump
+tcpdump -s 0 -w diagRing.pcap &
+echo Ejecucion de tcpdump
 DEBUG=* /ring-alarm-mqtt/ring-alarm-mqtt.js
