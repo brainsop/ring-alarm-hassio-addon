@@ -1,5 +1,5 @@
 {
-  "name": "ring alarm hass.io integration",
+  "name": "ring alarm hass.io integration debug version",
   "version": "0.55",
   "slug": "ring_alarm",
   "description": "Ring Alarm Integration! uses https://github.com/tsightler/ring-alarm-mqtt",
